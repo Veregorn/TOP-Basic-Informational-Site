@@ -3,10 +3,22 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
 h1 {
-    color: #333;
     font-size: 2em;
     text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
 }
 
 p {
@@ -15,7 +27,7 @@ p {
     text-align: center;
 }
 
-a {
+main a {
     color: #070707;
     text-decoration: underline;
 }
@@ -57,4 +69,37 @@ textarea {
     margin-bottom: 10px;
     padding: 5px;
     width: 200px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #eded4a;
 }
